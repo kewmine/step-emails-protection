@@ -1,0 +1,23 @@
+.taskpane-footer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-right: 1em;
+
+  .company {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    font-weight: 600;
+    gap: 0.5em;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+    img {
+      filter: brightness(0) invert(1);
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

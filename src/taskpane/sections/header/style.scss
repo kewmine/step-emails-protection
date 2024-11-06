@@ -1,0 +1,13 @@
+.taskpane-header{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  .title {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    word-spacing: 2px;
+  }
+}

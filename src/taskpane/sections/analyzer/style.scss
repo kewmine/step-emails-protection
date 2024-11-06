@@ -1,0 +1,25 @@
+.taskpane-analyzer {
+  flex-grow: 1;
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 7px;
+  padding: 1em;
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+
+    .title {
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 1rem;
+      color: #dedede;
+    }
+
+    .description {
+      font-size: 0.85rem;
+      color: #c9c9c9;
+      max-width: 90%;
+    }
+  }
+}
